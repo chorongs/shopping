@@ -9,7 +9,7 @@ const MainPage = () => {
   const [query, setQuery] = useSearchParams();
   const getProducts = async() => {
     let searchQuery = query.get('q') || "";
-    let url = `my-json-server.typicode.com/chorongs/shopping/products?q=${searchQuery}`;
+    let url = `https://my-json-server.typicode.com/chorongs/shopping/products?q=${searchQuery}`;
     let response = await fetch(url)
     let data = await response.json()
     setProductList(data)
