@@ -2,7 +2,7 @@
   "products":[
       {
           "id":0,
-          "img":"./image/logo.jpeg",
+          "img":"./img/12.jpeg",
           "title":"상큼한 초롱이",
           "price":3000,
           "choice":true,
@@ -12,7 +12,7 @@
       },
       {
         "id":1,
-        "img":"./image/1.jpeg",
+        "img":"./img/1.jpeg",
         "title":"미용한 초롱이",
         "price":4000,
         "choice":true,
@@ -22,7 +22,7 @@
     },
     {
       "id":2,
-      "img":"./image/2.jpeg",
+      "img":"./img/2.jpeg",
       "title":"졸린 초롱이",
       "price":3000,
       "choice":true,
@@ -32,7 +32,7 @@
   },
   {
     "id":3,
-    "img":"./image/3.jpeg",
+    "img":"./img/3.jpeg",
     "title":"행복한 초롱이",
     "price":5000,
     "choice":true,
@@ -42,7 +42,7 @@
 },
 {
   "id":4,
-  "img":"./image/4.jpeg",
+  "img":"./img/4.jpeg",
   "title":"신난 초롱이",
   "price":5000,
   "choice":true,
@@ -52,7 +52,7 @@
 },
 {
   "id":5,
-  "img":"./image/5.jpeg",
+  "img":"./img/5.jpeg",
   "title":"즐거운 초롱이",
   "price":4000,
   "choice":true,
@@ -62,7 +62,7 @@
 },
 {
   "id":6,
-  "img":"./image/6.jpeg",
+  "img":"./img/6.jpeg",
   "title":"피곤한 초롱이",
   "price":3400,
   "choice":true,
@@ -72,7 +72,7 @@
 },
 {
   "id":7,
-  "img":"./image/7.jpeg",
+  "img":"./img/7.jpeg",
   "title":"잠들기 직전 초롱이",
   "price":30000,
   "choice":true,
@@ -82,7 +82,7 @@
 },
 {
   "id":8,
-  "img":"./image/8.jpeg",
+  "img":"./img/8.jpeg",
   "title":"3개월 초롱",
   "price":30000,
   "choice":true,
@@ -92,7 +92,7 @@
 },
 {
   "id":9,
-  "img":"./image/9.jpeg",
+  "img":"./img/9.jpeg",
   "title":"금순이와 함께",
   "price":30000,
   "choice":true,
@@ -102,7 +102,7 @@
 },
 {
   "id":10,
-  "img":"./image/10.jpeg",
+  "img":"./img/10.jpeg",
   "title":"애기 초롱",
   "price":30000,
   "choice":true,
@@ -112,7 +112,7 @@
 },
 {
   "id":11,
-  "img":"./image/11.jpeg",
+  "img":"./img/11.jpeg",
   "title":"사고친 초롱",
   "price":30000,
   "choice":true,

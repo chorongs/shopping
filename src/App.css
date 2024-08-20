@@ -86,3 +86,9 @@
   color: black;
   font-weight: bolder;         
 }
+
+.product-img {
+  display: flex;
+  justify-content: flex-end;
+  
+}
