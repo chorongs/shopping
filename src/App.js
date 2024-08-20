@@ -5,6 +5,8 @@ import DetailPage from './pages/DetailPage';
 import LoginPage from './pages/LoginPage';
 import Navbar from './component/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect, useState } from 'react';
+import PrivateRoute from './route/PrivateRoute';
 
 // 1. 전체 상품 페이지, 로그인 페이지, 상품 상세 페이지
 // 1-1. navbar 생성
@@ -18,13 +20,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // 9. 상품을 검색할 수 있다.
 
 function App() {
+
+  const [authenticate,setAuthenticate] = useState(false) // true 로그인 O , false 로그인 X
+  useEffect (() => {
+    console.log("aaa", true)}, [authenticate] )
+  
+
   return (
     <div>
       <Navbar /> 
       <Routes>
         <Route path='/' element={<MainPage/>}/>
-        <Route path='/login' element={<LoginPage/>}/>
-        <Route path='/detail/:id' element={<DetailPage/>}/>
+        <Route path='/login' element={<LoginPage setAuthenticate={setAuthenticate}/>}/>
+        <Route path='/detail/:id' element={<PrivateRoute authenticate={authenticate}/>}/>
       </Routes>
     </div>
   );
