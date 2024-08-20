@@ -1,6 +1,13 @@
 import './App.css';
+import { Routes, Route } from "react-router-dom";
+import MainPage from './pages/MainPage';
+import DetailPage from './pages/DetailPage';
+import LoginPage from './pages/LoginPage';
+import Navbar from './component/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // 1. 전체 상품 페이지, 로그인 페이지, 상품 상세 페이지
+// 1-1. navbar 생성
 // 2. 전제 상품 페이지에서는 전체 상품을 볼 수 있다. (메인 페이지) 
 // 3. 로그인 버튼을 누르면 로그인 페이지가 나온다.
 // 4. 상품 디테일을 눌렀으나, 로그인이 되어있지 않으면 로그인 페이지로 이동 시킴
@@ -10,12 +17,15 @@ import './App.css';
 // 8. 로그인을 하면 로그아웃이 보여야하고, 로그아웃을 하면 로그인이 보여야 한다.
 // 9. 상품을 검색할 수 있다.
 
-
-
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <Navbar /> 
+      <Routes>
+        <Route path='/' element={<MainPage/>}/>
+        <Route path='/login' element={<LoginPage/>}/>
+        <Route path='/detail/:id' element={<DetailPage/>}/>
+      </Routes>
     </div>
   );
 }
