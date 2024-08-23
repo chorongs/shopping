@@ -15,7 +15,7 @@
         "img":"./img/1.jpeg",
         "title":"미용한 초롱이",
         "price":4000,
-        "choice":false,
+        "choice":true,
         "new":true,
         "size":["컬러", "흑백"]
 
@@ -45,7 +45,7 @@
   "img":"./img/4.jpeg",
   "title":"신난 초롱이",
   "price":5000,
-  "choice":true,
+  "choice":false,
   "new":false,
   "size":["컬러", "흑백"]
 
@@ -65,7 +65,7 @@
   "img":"./img/6.jpeg",
   "title":"피곤한 초롱이",
   "price":3400,
-  "choice":true,
+  "choice":false,
   "new":false,
   "size":["컬러", "흑백"]
 
@@ -85,7 +85,7 @@
   "img":"./img/8.jpeg",
   "title":"3개월 초롱",
   "price":30000,
-  "choice":true,
+  "choice":false,
   "new":false,
   "size":["컬러", "흑백"]
 
@@ -95,7 +95,7 @@
   "img":"./img/9.jpeg",
   "title":"금순이와 함께",
   "price":30000,
-  "choice":true,
+  "choice":false,
   "new":false,
   "size":["컬러", "흑백"]
 
@@ -105,7 +105,7 @@
   "img":"./img/10.jpeg",
   "title":"애기 초롱",
   "price":30000,
-  "choice":true,
+  "choice":false,
   "new":false,
   "size":["컬러", "흑백"]
 
@@ -115,7 +115,7 @@
   "img":"./img/11.jpeg",
   "title":"사고친 초롱",
   "price":30000,
-  "choice":true,
+  "choice":false,
   "new":false,
   "size":["컬러", "흑백"]
 
