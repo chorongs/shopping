@@ -28,7 +28,7 @@ const Navbar = () => {
     };
 
     const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen); // 메뉴 열기/닫기 토글
+        setIsMenuOpen(!isMenuOpen); 
     };
 
     return (
@@ -52,10 +52,10 @@ const Navbar = () => {
             </div>
 
             <div className="menu-area">
-                <FontAwesomeIcon icon={faBars} onClick={toggleMenu} className="menu-button" /> {/* 메뉴 버튼 */}
+                <FontAwesomeIcon icon={faBars} onClick={toggleMenu} className="menu-button" />
                 {isMenuOpen && (
                     <div className="sidebar-menu">
-                        <FontAwesomeIcon icon={faTimes} onClick={toggleMenu} className="close-button" /> {/* 닫기 버튼 */}
+                        <FontAwesomeIcon icon={faTimes} onClick={toggleMenu} className="close-button" />
                         <ul className="menu-list">
                             {MenuList.map((menu, index) => (
                                 <li key={index}>{menu}</li>
