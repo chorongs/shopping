@@ -15,7 +15,7 @@
         "img":"./img/1.jpeg",
         "title":"미용한 초롱이",
         "price":4000,
-        "choice":true,
+        "choice":false,
         "new":true,
         "size":["컬러", "흑백"]
 
@@ -35,7 +35,7 @@
     "img":"./img/3.jpeg",
     "title":"행복한 초롱이",
     "price":5000,
-    "choice":true,
+    "choice":false,
     "new":true,
     "size":["컬러", "흑백"]
 
@@ -55,7 +55,7 @@
   "img":"./img/5.jpeg",
   "title":"즐거운 초롱이",
   "price":4000,
-  "choice":true,
+  "choice":false,
   "new":false,
   "size":["컬러", "흑백"]
 
@@ -75,7 +75,7 @@
   "img":"./img/7.jpeg",
   "title":"잠들기 직전 초롱이",
   "price":30000,
-  "choice":true,
+  "choice":false,
   "new":false,
   "size":["컬러", "흑백"]
 
