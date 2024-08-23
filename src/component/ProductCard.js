@@ -15,10 +15,11 @@ const ProductCard = ({ item }) => {
         className="product-img" 
       />
       <div>{item?.choice === true ? <strong>the best choice</strong> : ""}</div>
+      <div style={{ color: 'blue' }}>{item?.new === true ? "New" : ""}</div>
       <div className="product-name"></div>
       <div className="product-title">{item?.title}</div>
       <div className="product-price">{item?.price}</div>
-      <div>{item?.new == true?"New":""}</div>
+      
     </div>
   );
 }
