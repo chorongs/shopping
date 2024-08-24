@@ -2,23 +2,20 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'; // 메뉴 버튼 아이콘 추가
-import { useNavigate } from 'react-router';
-import { Link } from 'react-router-dom';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate, Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ isLogin, setIsLogin }) => {
     const MenuList = ['About', '2021', '2022', '2023', '2024'];
     const navigate = useNavigate();
-    const [isLogin, setIsLogin] = useState(false);
-    const [isMenuOpen, setIsMenuOpen] = useState(false); // 사이드 메뉴 상태 추가
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleLogin = () => {
-        setIsLogin(!isLogin);
-    goToLogin();
-    };
-
-    const goToLogin = () => {
-        navigate('/login');
+        if (isLogin) {
+            setIsLogin(false); 
+        } else {
+            navigate('/login'); 
+        }
     };
 
     const search = (event) => {
