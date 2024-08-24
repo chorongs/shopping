@@ -14,6 +14,7 @@ const Navbar = () => {
 
     const toggleLogin = () => {
         setIsLogin(!isLogin);
+    goToLogin();
     };
 
     const goToLogin = () => {
